@@ -11,7 +11,7 @@ import SwiftUI
 struct Mateo_App_examen_DINTApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            	ContentView()
         }
     }
 }

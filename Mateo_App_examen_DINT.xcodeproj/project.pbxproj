@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B40864722D80B58000B32A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B408646C2D80B57F00B32A70 /* Assets.xcassets */; };
+		B40864732D80B58000B32A70 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = B408646D2D80B57F00B32A70 /* Preview Content */; };
+		B40864742D80B58000B32A70 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = B408646E2D80B58000B32A70 /* Models */; };
+		B40864752D80B58000B32A70 /* Services in Resources */ = {isa = PBXBuildFile; fileRef = B408646F2D80B58000B32A70 /* Services */; };
+		B40864762D80B58000B32A70 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = B40864702D80B58000B32A70 /* Views */; };
+		B40864772D80B58000B32A70 /* ViewModels in Resources */ = {isa = PBXBuildFile; fileRef = B40864712D80B58000B32A70 /* ViewModels */; };
+		B40864792D80B97C00B32A70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40864782D80B97C00B32A70 /* ContentView.swift */; };
 		B46933C12D80A50500687709 /* Mateo_App_examen_DINTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46933C02D80A50500687709 /* Mateo_App_examen_DINTApp.swift */; };
-		B46933C32D80A50500687709 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46933C22D80A50500687709 /* ContentView.swift */; };
 		B46933C52D80A50600687709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46933C42D80A50600687709 /* Assets.xcassets */; };
 		B46933C92D80A50600687709 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46933C82D80A50600687709 /* Preview Assets.xcassets */; };
 		B46933D32D80A50600687709 /* Mateo_App_examen_DINTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46933D22D80A50600687709 /* Mateo_App_examen_DINTTests.swift */; };
@@ -34,9 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B408646C2D80B57F00B32A70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B408646D2D80B57F00B32A70 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		B408646E2D80B58000B32A70 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		B408646F2D80B58000B32A70 /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
+		B40864702D80B58000B32A70 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
+		B40864712D80B58000B32A70 /* ViewModels */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewModels; sourceTree = "<group>"; };
+		B40864782D80B97C00B32A70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B46933BD2D80A50500687709 /* Mateo_App_examen_DINT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mateo_App_examen_DINT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46933C02D80A50500687709 /* Mateo_App_examen_DINTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mateo_App_examen_DINTApp.swift; sourceTree = "<group>"; };
-		B46933C22D80A50500687709 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B46933C42D80A50600687709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B46933C62D80A50600687709 /* Mateo_App_examen_DINT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mateo_App_examen_DINT.entitlements; sourceTree = "<group>"; };
 		B46933C82D80A50600687709 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -96,8 +108,14 @@
 			isa = PBXGroup;
 			children = (
 				B46933C02D80A50500687709 /* Mateo_App_examen_DINTApp.swift */,
-				B46933C22D80A50500687709 /* ContentView.swift */,
 				B46933C42D80A50600687709 /* Assets.xcassets */,
+				B408646C2D80B57F00B32A70 /* Assets.xcassets */,
+				B40864782D80B97C00B32A70 /* ContentView.swift */,
+				B408646E2D80B58000B32A70 /* Models */,
+				B408646D2D80B57F00B32A70 /* Preview Content */,
+				B408646F2D80B58000B32A70 /* Services */,
+				B40864712D80B58000B32A70 /* ViewModels */,
+				B40864702D80B58000B32A70 /* Views */,
 				B46933C62D80A50600687709 /* Mateo_App_examen_DINT.entitlements */,
 				B46933C72D80A50600687709 /* Preview Content */,
 			);
@@ -233,8 +251,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B40864752D80B58000B32A70 /* Services in Resources */,
+				B40864772D80B58000B32A70 /* ViewModels in Resources */,
+				B40864742D80B58000B32A70 /* Models in Resources */,
+				B40864732D80B58000B32A70 /* Preview Content in Resources */,
 				B46933C92D80A50600687709 /* Preview Assets.xcassets in Resources */,
+				B40864722D80B58000B32A70 /* Assets.xcassets in Resources */,
 				B46933C52D80A50600687709 /* Assets.xcassets in Resources */,
+				B40864762D80B58000B32A70 /* Views in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B46933C32D80A50500687709 /* ContentView.swift in Sources */,
+				B40864792D80B97C00B32A70 /* ContentView.swift in Sources */,
 				B46933C12D80A50500687709 /* Mateo_App_examen_DINTApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
